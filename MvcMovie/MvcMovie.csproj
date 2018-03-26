@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="*" />
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="*"/>
   </ItemGroup>
 
   <Target Name="AddWwwRoot" BeforeTargets="AssignTargetPaths" DependsOnTargets="BeforeBuild;BeforePublish">
